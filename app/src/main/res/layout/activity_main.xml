@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+<!-- .............l1..................................................-->
+   <LinearLayout
+       android:id="@+id/l1"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:visibility="visible"
+       >
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="200sp"
+           >
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="200sp"
+               android:src="@drawable/t1"
+               android:scaleType="fitXY"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="  Where to ? "
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="140sp"
+               android:textSize="20sp"
+               android:textColor="#000000"
+               android:textStyle="bold"
+               android:background="@drawable/square_circle"
+
+                            />
+
+       </RelativeLayout>
+
+  <!--..............middel...part....................................................-->
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="240sp"
+           android:orientation="vertical"
+           android:layout_margin="20sp"
+           >
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="120sp"
+               android:orientation="horizontal"
+               android:weightSum="3"
+               >
+               <RelativeLayout
+                   android:layout_width="fill_parent"
+                   android:layout_height="120sp"
+                   android:orientation="vertical"
+                   android:layout_weight="1"
+                   >
+                   <ImageView
+                       android:layout_width="fill_parent"
+                       android:layout_height="80sp"
+                       android:src="@drawable/ss"
+                       />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:gravity="center"
+                       android:text="Hotel"
+                       android:textSize="15sp"
+                       android:textColor="#000000"
+                       android:paddingBottom="10sp"                       android:layout_centerHorizontal="true"
+                       android:layout_alignParentBottom="true"
+
+                       />
+               </RelativeLayout>
+               <RelativeLayout
+                   android:layout_width="fill_parent"
+                   android:layout_height="120sp"
+                   android:orientation="vertical"
+                   android:layout_weight="1"
+                   >
+                   <ImageView
+                       android:layout_width="fill_parent"
+                       android:layout_height="80sp"
+                       android:src="@drawable/f"
+                       />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:gravity="center"
+                       android:text="Flight"
+                       android:textSize="15sp"
+                       android:textColor="#000000"
+                       android:paddingBottom="10sp"                       android:layout_centerHorizontal="true"
+                       android:layout_alignParentBottom="true"
+
+                       />
+               </RelativeLayout>
+               <RelativeLayout
+                   android:layout_width="fill_parent"
+                   android:layout_height="120sp"
+                   android:orientation="vertical"
+                   android:layout_weight="1"
+                   >
+                   <ImageView
+                       android:layout_width="fill_parent"
+                       android:layout_height="80sp"
+                       android:src="@drawable/tkt"
+                       android:scaleType="centerInside"
+                       />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:gravity="center"
+                       android:text="Ticket"
+                       android:textSize="15sp"
+                       android:textColor="#000000"
+                       android:paddingBottom="10sp"
+                       android:layout_centerHorizontal="true"
+                       android:layout_alignParentBottom="true"
+                       />
+               </RelativeLayout>
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="120sp"
+               android:orientation="horizontal"
+               android:weightSum="3"
+               >
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="120sp"
+                   android:orientation="horizontal"
+                   android:weightSum="3"
+                   >
+                   <RelativeLayout
+                       android:layout_width="fill_parent"
+                       android:layout_height="120sp"
+                       android:orientation="vertical"
+                       android:layout_weight="1"
+                       >
+                       <ImageView
+                           android:layout_width="fill_parent"
+                           android:layout_height="80sp"
+                           android:src="@drawable/holy"
+                           />
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:gravity="center"
+                           android:text="Vacation"
+                           android:textSize="15sp"
+                           android:textColor="#000000"
+                           android:paddingBottom="10sp"
+                           android:layout_centerHorizontal="true"
+                           android:layout_alignParentBottom="true"
+                           />
+                   </RelativeLayout>
+                   <RelativeLayout
+                       android:layout_width="fill_parent"
+                       android:layout_height="120sp"
+                       android:orientation="vertical"
+                       android:layout_weight="1"
+                       >
+                       <ImageView
+                           android:layout_width="fill_parent"
+                           android:layout_height="80sp"
+                           android:src="@drawable/foo"
+                           />
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:gravity="center"
+                           android:text="Food"
+                           android:textSize="15sp"
+                           android:textColor="#000000"
+                           android:paddingBottom="10sp"
+                           android:layout_centerHorizontal="true"
+                           android:layout_alignParentBottom="true"
+                           />
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:orientation="vertical">
+
+                       </LinearLayout>
+                   </RelativeLayout>
+                   <RelativeLayout
+                       android:layout_width="fill_parent"
+                       android:layout_height="120sp"
+                       android:orientation="vertical"
+                       android:layout_weight="1"
+                       >
+                       <ImageView
+                           android:layout_width="fill_parent"
+                           android:layout_height="80sp"
+                           android:src="@drawable/dit"
+                           android:scaleType="centerInside"
+                           />
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:gravity="center"
+                           android:text="More"
+                           android:textSize="15sp"
+                           android:textColor="#000000"
+                           android:paddingBottom="10sp"
+                           android:layout_centerHorizontal="true"
+                           android:layout_alignParentBottom="true"
+                           />
+                   </RelativeLayout>
+               </LinearLayout>
+           </LinearLayout>
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="200sp"
+           android:orientation="vertical"
+           android:layout_marginLeft="10sp"
+           >
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Your Destinations"
+               android:textSize="30sp"
+               android:textColor="#000000"
+               android:textStyle="bold"
+               />
+
+           <HorizontalScrollView
+               android:layout_width="match_parent"
+               android:layout_height="160sp"
+               >
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="200sp"
+                   android:orientation="horizontal">
+                   <ImageView
+                       android:layout_width="200sp"
+                       android:layout_height="150sp"
+                       android:src="@drawable/tin"
+                       android:textSize="30sp"
+                       android:scaleType="fitXY"
+                       android:layout_marginRight="15sp"
+
+
+                       />
+                   <ImageView
+                       android:layout_width="200sp"
+                       android:layout_height="150sp"
+                       android:src="@drawable/t2"
+                       android:textSize="30sp"
+                       android:scaleType="fitXY"
+                       android:layout_marginRight="15sp"
+
+                       />
+                   <ImageView
+                       android:layout_width="200sp"
+                       android:layout_height="150sp"
+                       android:src="@drawable/china"
+                       android:textSize="30sp"
+                       android:scaleType="fitXY"
+                       android:layout_marginRight="15sp"
+                       />
+                   <ImageView
+                       android:layout_width="200sp"
+                       android:layout_height="150sp"
+                       android:src="@drawable/morocco"
+                       android:textSize="30sp"
+                       android:scaleType="fitXY"
+                       android:layout_marginRight="15sp"
+                       />
+                   <ImageView
+                       android:layout_width="200sp"
+                       android:layout_height="150sp"
+                       android:src="@drawable/turki"
+                       android:textSize="30sp"
+                       android:scaleType="fitXY"
+                       android:layout_marginRight="15sp"
+                       />
+                   <ImageView
+                       android:layout_width="200sp"
+                       android:layout_height="150sp"
+                       android:src="@drawable/switzerland"
+                       android:textSize="30sp"
+                       android:scaleType="fitXY"
+                       android:layout_marginRight="15sp"
+                       />
+                   <ImageView
+                       android:layout_width="200sp"
+                       android:layout_height="150sp"
+                       android:src="@drawable/tin"
+                       android:textSize="30sp"
+                       android:scaleType="fitXY"
+                       android:layout_marginRight="15sp"
+
+
+                       />
+                   <ImageView
+                       android:layout_width="200sp"
+                       android:layout_height="150sp"
+                       android:src="@drawable/t2"
+                       android:textSize="30sp"
+                       android:scaleType="fitXY"
+                       android:layout_marginRight="15sp"
+
+                       />
+                   <ImageView
+                       android:layout_width="200sp"
+                       android:layout_height="150sp"
+                       android:src="@drawable/china"
+                       android:textSize="30sp"
+                       android:scaleType="fitXY"
+                       android:layout_marginRight="15sp"
+                       />
+                   <ImageView
+                       android:layout_width="200sp"
+                       android:layout_height="150sp"
+                       android:src="@drawable/morocco"
+                       android:textSize="30sp"
+                       android:scaleType="fitXY"
+                       android:layout_marginRight="15sp"
+                       />
+                   <ImageView
+                       android:layout_width="200sp"
+                       android:layout_height="150sp"
+                       android:src="@drawable/turki"
+                       android:textSize="30sp"
+                       android:scaleType="fitXY"
+                       android:layout_marginRight="15sp"
+                       />
+                   <ImageView
+                       android:layout_width="200sp"
+                       android:layout_height="150sp"
+                       android:src="@drawable/switzerland"
+                       android:textSize="30sp"
+                       android:scaleType="fitXY"
+                       android:layout_marginRight="15sp"
+                       />
+
+
+               </LinearLayout>
+           </HorizontalScrollView>
+
+
+       </LinearLayout>
+
+
+   </LinearLayout>
+    <!-- .............l2..................................................-->
+    <RelativeLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_above="@+id/nav"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20sp"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210sp"
+                    android:src="@drawable/turki"
+                    android:scaleType="fitXY"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tutki"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210sp"
+                    android:src="@drawable/switzerland"
+                    android:scaleType="fitXY"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Switzerland"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210sp"
+                    android:src="@drawable/morocco"
+                    android:scaleType="fitXY"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Morocco"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210sp"
+                    android:src="@drawable/t2"
+                    android:scaleType="fitXY"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ratargul"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210sp"
+                    android:src="@drawable/china"
+                    android:scaleType="fitXY"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="China"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210sp"
+                    android:src="@drawable/w1"
+                    android:scaleType="fitXY"
+                                        />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Colosseum"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210sp"
+                    android:src="@drawable/w2"
+                    android:scaleType="fitXY"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="London Bridge"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210sp"
+                    android:src="@drawable/w3"
+                    android:scaleType="fitXY"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dubai"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210sp"
+                    android:src="@drawable/w4"
+                    android:scaleType="fitXY"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Niagara Falls"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_margin="5sp"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210sp"
+                    android:src="@drawable/tin"
+                    android:scaleType="fitXY"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Taj Mahal"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:layout_margin="5sp"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+    </RelativeLayout>
+    <!-- .............l3.................................................-->
+    <RelativeLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10sp"
+        android:layout_above="@+id/nav"
+        android:visibility="gone"
+        >
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         >
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Notification"
+                 android:textSize="40sp"
+                 android:textStyle="bold"
+                 android:layout_margin="15sp"
+                 android:textColor="#000000"
+                 android:gravity="center"
+                 />
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/china"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="China visited 10 days ago."
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/tin"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="Taj Mahal visited 15 days ago."
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/turki"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="Turki visited 25 days ago."
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/morocco"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="Morocco visited 1 month ago."
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/w1"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="Colosseum visited 37 days ago."
+                     android:textSize="17sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/w2"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="London visited 1.5 month ago."
+                     android:textSize="17sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/w3"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="Dubai visited 2 month ago."
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/w4"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="Niagara visited 70 days ago."
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/switzerland"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="Switzerland visited 2.5 month ago."
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/china"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="China visited 3 month ago."
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/tin"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="TajMahal visited 100 days ago."
+                     android:textSize="17sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/turki"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="Turki visited 105 days ago."
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/morocco"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="Morocco visited 4 month ago."
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/w1"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="Colosseum visited 4.5 month ago."
+                     android:textSize="17sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/w2"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="London visited 5 month ago."
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/w3"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="Dubai visited 6 month ago."
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/w4"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="Niagara visited 7 month ago."
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="50sp"
+                 android:orientation="horizontal"
+                 android:layout_margin="5sp"
+                 >
+                 <ImageView
+                     android:layout_width="50sp"
+                     android:layout_height="50sp"
+                     android:src="@drawable/switzerland"
+                     android:scaleType="fitXY"
+                     android:background="@drawable/square_circle"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50sp"
+                     android:text="Switzerland visited 10 days ago."
+                     android:textSize="17sp"
+                     android:textStyle="bold"
+                     android:textColor="#000000"
+                     android:paddingLeft="8sp"
+                     android:paddingTop="10sp"
+                     />
+
+
+             </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+         </LinearLayout>
+     </ScrollView>
+
+
+
+
+    </RelativeLayout>
+    <!-- .............l4.................................................-->
+    <RelativeLayout
+        android:id="@+id/l4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/nav"
+        android:visibility="gone"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/profile"
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            app:cardCornerRadius="50sp"
+            android:background="#ffffff"
+            android:layout_marginTop="50sp"
+            android:layout_centerHorizontal="true"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/efaj"
+                android:scaleType="centerCrop"
+                />
+        </androidx.cardview.widget.CardView>
+
+<TextView
+    android:id="@+id/name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Mir Efaj"
+    android:layout_below="@+id/profile"
+    android:gravity="center"
+    android:textSize="30sp"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:layout_marginBottom="50sp"
+    android:layout_marginTop="20sp"
+    />
+        <ImageView
+            android:id="@+id/linkedin"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:src="@drawable/linkedin"
+            android:layout_below="@+id/name"
+            android:layout_centerHorizontal="true"
+            />
+        <ImageView
+            android:id="@+id/email"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:src="@drawable/email"
+            android:layout_below="@+id/linkedin"
+            android:layout_centerHorizontal="true"
+            />
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:src="@drawable/twitter"
+            android:layout_below="@+id/email"
+            android:layout_centerHorizontal="true"
+            />
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:src="@drawable/facebook"
+            android:layout_below="@+id/twitter"
+            android:layout_centerHorizontal="true"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+    <!-- .............navigation..................................................-->
+    <LinearLayout
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_margin="5sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginLeft="25sp"
+        android:weightSum="4"
+        android:background="#F1EEEE"
+        >
+<ImageView
+    android:id="@+id/home"
+    android:layout_weight="1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/home"
+    />
+        <ImageView
+            android:id="@+id/trip"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/trip"
+            />
+        <ImageView
+            android:id="@+id/notification"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/noti"
+            />
+        <ImageView
+            android:id="@+id/me"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/me"
+            />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
